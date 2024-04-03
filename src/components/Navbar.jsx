@@ -1,17 +1,14 @@
-import { useState } from 'react'
-import './App.css';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Shop from './components/Shop';
+import React, {useState} from 'react'
+import "../styles/Navbar.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function App() {
-  const [showMenu, setShowMenu] = useState(false)
+const Navbar = () => {
+const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <div className="App">
     <div className='NavbarComp'>
       <div className='CompanyLogo'>
-        <img src={require('./assets/ButterflyLogoPink.png')} alt='LOGO'/>
+        <img src={require('../assets/ButterflyLogoPink.png')} alt='LOGO'/>
       </div>
       
       <div className={showMenu ? "ActiveMobMenu" : "NavbarMenu"}>
@@ -36,15 +33,7 @@ function App() {
          <p className="HamburgerMenu" onClick={()=>setShowMenu(true)}>|||</p>
       </div>
     </div>
-
-    <div id="Home">
-      <Home />
-    </div>
-    <div id="Shop">
-      <Shop />
-    </div>
-    </div>
-  );
+  )
 }
 
-export default App;
+export default Navbar 

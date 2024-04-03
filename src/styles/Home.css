@@ -1,0 +1,185 @@
+.LandingPageMain{
+    /* border: 1px solid grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #3C3C3C !important;
+    height: 550px;
+    background-color: #FCF6F6;
+
+    background-image: url("../assets/LandingImage-2.jpeg");
+    /* background-color: #232628; */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.LandingContent{
+    width: 40%;
+    /* border: 1px solid red; */
+    text-align: left;
+    margin-left: 50px;
+}
+
+.LandingImageContent{
+    width: 60%;
+    /* border: 1px solid green; */
+}
+
+.LandingOffer{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.LandingOffer > span{
+    border: 1px solid #E8175D !important;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.LandingOffer > h3{
+    font-weight: 500;
+    color: #3C3C3C;
+    margin: 5px 0px;
+}
+
+.LandingHeading > p{
+    font-size: 60px;
+    margin: 5px 0px;
+    color: #3C3C3C;
+}
+
+.Landing50Offer{
+    font-size: 80px !important;
+    font-weight: 600;
+    color: #3C3C3C;
+    /* margin: 10px 0px; */
+}
+
+.LandingShopBtn > button{
+    padding: 18px 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    /* background-color: #E8175D; */
+    width: 180px;
+    margin-top: 30px;
+    font-size: 17px;
+    background: linear-gradient(155deg, #fd3f6b 0%, #fd7863 98%, #f3dfe0 100%);
+}
+
+
+
+
+
+
+
+@media screen and ( max-width : 850px){  
+
+.LandingContent{
+    /* border: 1px solid red; */
+    width: 70%;
+}
+
+.LandingOffer > h3{
+    font-weight: 500;
+    color: #3C3C3C;
+    margin: 5px 0px;
+}
+
+.LandingHeading > p{
+    font-size: 40px;
+    margin: 5px 0px;
+    color: #3C3C3C;
+}
+
+.Landing50Offer{
+    font-size: 70px !important;
+    font-weight: 600;
+    color: #3C3C3C;
+    /* margin: 10px 0px; */
+}
+
+.LandingShopBtn > button{
+    padding: 15px 12px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+}
+
+
+
+
+
+@media screen and ( max-width : 580px){  
+
+    .LandingContent{
+        /* border: 1px solid red; */
+        width: 80%;
+    }
+    
+    .LandingOffer > h3{
+        font-weight: 500;
+        color: #3C3C3C;
+        margin: 5px 0px;
+        font-size: 14px;
+    }
+    
+    .LandingHeading > p{
+        font-size: 30px;
+        margin: 5px 0px;
+        color: #3C3C3C;
+    }
+    
+    .Landing50Offer{
+        font-size: 55px !important;
+    }
+    
+    .LandingShopBtn > button{
+        padding: 12px;
+        width: 130px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media screen and ( max-width : 500px){  
+
+    .LandingContent{
+        /* border: 1px solid red; */
+        width: 80%;
+    }
+    
+    .LandingOffer > h3{
+        font-weight: 500;
+        color: #3C3C3C;
+        margin: 5px 0px;
+        font-size: 13px;
+    }
+    
+    .LandingHeading > p{
+        font-size: 25px;
+        margin: 5px 0px;
+        color: #3C3C3C;
+    }
+    
+    .Landing50Offer{
+        font-size: 40px !important;
+    }
+    
+    .LandingShopBtn > button{
+        padding: 12px;
+        width: 130px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
