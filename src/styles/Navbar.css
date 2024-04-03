@@ -89,7 +89,7 @@
     }
 
     .HamburgerMenu{
-        margin-left: 15px !important;
+        /* margin-left: 15px !important; */
         font-size: 18px;
         font-weight: 700;
         display: none;

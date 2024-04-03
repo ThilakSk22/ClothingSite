@@ -144,5 +144,44 @@
     /* height: 350px; */
     object-fit: contain;
  
-    
+}
+
+
+
+
+@media screen and ( max-width : 1200px){
+    .ShopButtons{
+        /* border: 1px solid green; */
+        width: 35%;
+    } 
+}
+
+@media screen and ( max-width : 900px){
+    .ShopButtons{
+        /* border: 1px solid green; */
+        width: 40%;
+    } 
+}
+
+
+@media screen and ( max-width : 720px){
+    .ShopButtons{
+        /* border: 1px solid green; */
+        width: 50%;
+    } 
+}
+
+@media screen and ( max-width : 550px){
+    .ShopButtons{
+        /* border: 1px solid green; */
+        width: 70%;
+    } 
+}
+
+
+@media screen and ( max-width : 430px){
+    .ShopButtons{
+        /* border: 1px solid green; */
+        width: 95%;
+    } 
 }

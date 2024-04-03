@@ -141,7 +141,9 @@
       }
 
       .SignInCartComp{
-          width: 200px;
+          width: 180px !important;
+          /* border: 1px solid green; */
+          margin-right: 10px;
       }
 
 
@@ -218,6 +220,9 @@
          /* border-top: 1px solid grey; */
          padding: 20px !important;
       }
+    .HamburgerMenu{
+      margin-left: 1px !important;
+    }
 
 
   }
