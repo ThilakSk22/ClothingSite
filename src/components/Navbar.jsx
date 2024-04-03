@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import "../styles/Navbar.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = () => {
 const [showMenu, setShowMenu] = useState(false)
